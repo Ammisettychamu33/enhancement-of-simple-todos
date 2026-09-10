@@ -26,7 +26,7 @@ const initialTodosList = [
   },
   {
     id: 5,
-    title: 'Order Fruit Item 5',
+    title: 'Order fruits on Big Basket',
     isCompleted: false,
   },
   {
