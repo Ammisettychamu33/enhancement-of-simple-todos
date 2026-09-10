@@ -31,17 +31,17 @@ const initialTodosList = [
   },
   {
     id: 6,
-    title: 'Fix the problem in the car',
+    title: 'Fix the production issue',
     isCompleted: false,
   },
   {
     id: 7,
-    title: 'Confirm the slot for Friday',
+    title: 'Confirm the slot for the workshop',
     isCompleted: false,
   },
   {
     id: 8,
-    title: 'Get me a new car',
+    title: 'Get a new laptop',
     isCompleted: false,
   },
 ]
