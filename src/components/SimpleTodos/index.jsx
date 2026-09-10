@@ -16,7 +16,7 @@ const initialTodosList = [
   },
   {
     id: 3,
-    title: 'Confirm the slot for Wednesday',
+    title: 'Confirm the slot for the yoga session tomorrow morning',
     isCompleted: false,
   },
   {
