@@ -21,7 +21,7 @@ const initialTodosList = [
   },
   {
     id: 4,
-    title: 'Drop the parcel at alien point',
+    title: 'Drop the parcel at Bloomingdale',
     isCompleted: false,
   },
   {
