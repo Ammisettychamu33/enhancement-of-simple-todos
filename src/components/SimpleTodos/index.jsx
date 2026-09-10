@@ -11,7 +11,7 @@ const initialTodosList = [
   },
   {
     id: 2,
-    title: 'Rent the car for next week',
+    title: 'Rent the movie for tomorrow movie night',
     isCompleted: false,
   },
   {
