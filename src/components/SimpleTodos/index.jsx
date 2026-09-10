@@ -36,12 +36,12 @@ const initialTodosList = [
   },
   {
     id: 7,
-    title: 'Confirm the slot for the workshop',
+    title: 'Confirm my slot for Saturday Night',
     isCompleted: false,
   },
   {
     id: 8,
-    title: 'Get a new laptop',
+    title: 'Get me a new car',
     isCompleted: false,
   },
 ]
