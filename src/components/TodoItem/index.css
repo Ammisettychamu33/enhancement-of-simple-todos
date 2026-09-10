@@ -1,0 +1,94 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+  gap: 16px;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.todo-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--primary-color);
+}
+
+.title-text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+  word-break: break-word;
+  transition: all 0.2s ease;
+}
+
+.title-text.completed {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.edit-input {
+  flex-grow: 1;
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  outline: none;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.edit-save-btn {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.edit-save-btn:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.delete-btn {
+  border: 1px solid var(--danger-color);
+  color: var(--danger-color);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.delete-btn:hover {
+  background-color: var(--danger-color);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .todo-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .buttons-container {
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
+}

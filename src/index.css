@@ -1,0 +1,44 @@
+:root {
+  --bg-color: #ffc2a0;
+  --card-bg: #ffffff;
+  --heading-color: #ff8542;
+  --text-color: #000000;
+  --text-muted: #64748b;
+  --primary-color: #ff8542;
+  --primary-hover: #e06d2c;
+  --danger-color: #ef4444;
+  --danger-hover: #dc2626;
+  --border-color: #cbd5e1;
+  --radius: 12px;
+  --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  font-family: inherit;
+}
