@@ -41,7 +41,7 @@ const initialTodosList = [
   },
   {
     id: 8,
-    title: 'Get me a new car',
+    title: 'Get essentials for Sunday car wash',
     isCompleted: false,
   },
 ]
