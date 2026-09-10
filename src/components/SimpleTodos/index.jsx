@@ -63,16 +63,18 @@ class SimpleTodos extends Component {
 
     if (trimmedInput === '') return
 
-    const parts = trimmedInput.split(' ')
+    const parts = trimmedInput.split(/\s+/)
     const lastPart = parts[parts.length - 1]
-    const parsedQuantity = parseInt(lastPart)
 
     let title = trimmedInput
     let quantity = 1
 
-    if (!isNaN(parsedQuantity) && parsedQuantity > 0 && parts.length > 1) {
-      title = parts.slice(0, parts.length - 1).join(' ')
-      quantity = parsedQuantity
+    if (parts.length > 1 && /^\d+$/.test(lastPart)) {
+      const parsedQuantity = parseInt(lastPart, 10)
+      if (parsedQuantity > 0) {
+        quantity = parsedQuantity
+        title = parts.slice(0, -1).join(' ')
+      }
     }
 
     const newTodos = []
