@@ -6,7 +6,7 @@ import './index.css'
 const initialTodosList = [
   {
     id: 1,
-    title: 'Book the ticket for today night',
+    title: 'Book the ticket for today evening',
     isCompleted: false,
   },
   {
